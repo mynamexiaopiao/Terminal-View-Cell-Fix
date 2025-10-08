@@ -1,10 +1,9 @@
 {
   "required": true,
-  "package": "com.xiaopiao.ae2_toggleable_view_cell.mixin",
+  "package": "com.xiaopiao.terminal_view_cell_fix.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "MixinMEStorageMenu",
-    "MixinRestrictedInputSlot"
+    "UpgradesPanelMixin"
   ],
   "injectors": {
     "defaultRequire": 1
